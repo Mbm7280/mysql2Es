@@ -1,0 +1,11 @@
+spring:
+  elasticsearch:
+    rest:
+      uris: 124.221.194.11:9200,124.221.194.11:9201,124.221.194.11:9202
+server:
+  port: 8083
+
+logging:
+  level:
+    root: info
+    com.xdclass.search: debug
